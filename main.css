@@ -1,0 +1,231 @@
+body
+{
+	font-family: 'Risque', cursive;
+	background-color: #1a1a1a;
+	color: white;
+}
+
+a:link
+{
+	color: #fff;
+	text-decoration: none;
+}
+a:visited 
+{
+    color: #fff;
+}
+
+a:hover 
+{
+    color: #fff;
+}
+
+a:active 
+{    
+	color: #fff;
+}
+
+#container
+{
+	width: 1000px;
+	margin: auto;
+}
+
+#title
+{
+	text-align: center;
+	width: 980px;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+#mainsheet
+{
+	width: 1000px;
+	margin: auto;
+}
+
+.photostar
+{
+	display: inline-block;
+	width: 450px;
+	padding: 15px;
+	margin: auto;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+#footer
+{
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	font-size: 10px;
+}
+
+/* Hover effects */
+
+.photo1
+{
+	transition: transform .2s ease-in-out;
+}
+
+.photo1:hover
+{
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9); 
+}
+
+.photo2
+{
+	transition: all .3s ease-in-out;
+}
+
+.photo2:hover
+{
+	-webkit-transform:rotate(10deg);
+	-ms-transform:rotate(10deg);
+	transform: rotate(10deg);
+}
+
+.photo3
+{
+	overflow: hidden;
+}
+
+.photo3 img
+{
+		transition: all .3s ease-in-out;
+}
+
+.photo3:hover img
+{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.photo4
+{
+	transition: all .6s ease-in-out;
+}
+
+.photo4:hover
+{
+	-webkit-transform: scale(0.8) rotate(-360deg);
+	-ms-transform: scale(0.8) rotate(-360deg);
+	transform: scale(0.8) rotate(-360deg);
+}
+
+.photo5
+{
+	overflow: hidden;
+}
+
+.photo5 img
+{
+	transition: all .4s ease-in-out;
+}
+
+.photo5:hover img
+{
+	-webkit-transform: scale(1.2) rotate(-10deg);
+	-ms-transform: scale(1.2) rotate(-10deg);
+	transform: scale(1.2) rotate(-10deg);
+}
+
+.photo6
+{
+	overflow: hidden;
+}
+
+.photo6 img
+{
+	transition: all .4s ease-in-out;
+}
+
+.photo6:hover img
+{
+	-webkit-transform: scale(1.2) skew(-20deg);
+	-ms-transform: scale(1.2) skew(-20deg);
+	transform: scale(1.2) skew(-20deg);
+}
+
+.photo7
+{
+	width: 450px;
+}
+
+.over
+{
+	position: relative;
+	padding: 15px;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+}
+
+.over .link
+{
+	position: absolute;
+	display: block;
+	background-color: #a3a3c2;
+	width: 400px;
+	height: 75px;
+	left: 15px;
+	bottom: 15px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.over:hover .link
+{
+	opacity: 0.8;
+}
+
+
+.photo8
+{
+	width: 450px;
+}
+
+.overt
+{
+	position: relative;
+	width: 400px;
+	height: 315px;
+	margin: auto;
+	padding-bottom: 15px;
+	
+	
+}
+
+.overt .link
+{
+	position: absolute;
+	display: block;
+	width: 400px;
+	height: 315px;
+	background-color: #a3a3c2;
+	bottom: 15px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overt:hover .link
+{
+	opacity: 0.9;
+}
+.icon
+{
+	display: block;
+	top: 35%;
+	position: relative;
+	font-size: 22px;
+}
+
+
+
+
